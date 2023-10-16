@@ -3,6 +3,6 @@ node {
      git 'https://github.com/JacobSahli/jenkins-helloworld.git'
      sh label: '', script: '''
 	      javac Main.java
-	      kava Main
+	      java Main
         }	      
     }
