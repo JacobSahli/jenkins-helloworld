@@ -4,5 +4,6 @@ node {
      sh label: '', script: '''
 	      javac Main.java
 	      java Main
-        }	      
+              '''
+     }
     }
